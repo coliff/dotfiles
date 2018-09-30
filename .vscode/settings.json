@@ -1,0 +1,9 @@
+{
+  "editor.renderWhitespace": "all",
+  "cSpell.words": ["allowfullscreen"],
+  "cSpell.ignorePaths": ["*.min.js"],
+  "editor.formatOnSave": true,
+  "stylelint.configOverrides": {
+    "ignoreFiles": "*.min.css"
+  }
+}
