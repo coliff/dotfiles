@@ -1,0 +1,29 @@
+{
+  "extends": ["development"],
+  "hints": {
+    "axe": "off",
+    "axe/keyboard": "off",
+    "axe/language": "off",
+    "axe/sensory-and-visual-cues": "off",
+    "axe/structure": "off",
+    "axe/text-alternatives": "off",
+    "disown-opener": "off",
+    "highest-available-document-mode": "off",
+    "html-checker": "off",
+    "meta-charset-utf-8": "off",
+    "meta-viewport": "off",
+    "no-vulnerable-javascript-libraries": "error",
+    "sri": "off",
+    "webpack-config/modules-false-babel": "off"
+  },
+  "ignoredUrls": [
+    {
+      "domain": "^https?://.*\\.google-analytics\\.com/.*",
+      "hints": ["*"]
+    },
+    {
+      "domain": "^https?://fonts\\.googleapis\\.com/.*",
+      "hints": ["*"]
+    }
+  ]
+}
