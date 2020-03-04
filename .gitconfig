@@ -1,3 +1,7 @@
+[user]
+  name = Christian Oliff
+  email = christianoliff@pm.me
+
 [alias]
   co = checkout
   cp = cherry-pick

@@ -1,0 +1,21 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "private": true,
+  "description": "my-dot-files",
+  "homepage": "https://github.com/coliff/dotfiles",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coliff/dotfiles"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "C.Oliff",
+    "email": "code@christianoliff.com",
+    "url": "https://christianoliff.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {}
+}
