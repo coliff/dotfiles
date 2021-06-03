@@ -11,13 +11,15 @@
     "type": "git",
     "url": "https://github.com/coliff/dotfiles"
   },
-  "license": "MIT",
-  "author": {
-    "name": "C.Oliff",
-    "email": "code@christianoliff.com",
-    "url": "https://christianoliff.com"
+  "funding": {
+    "type": "PayPal",
+    "url": "https://paypal.me/coliff"
   },
+  "license": "MIT",
+  "author": "C.Oliff (https://christianoliff.com)",
   "scripts": {
+    "css-lint": "npx stylelint \"scss/*.scss\"",
+    "prettier": "npx prettier --write \"scss/*.scss\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {}
