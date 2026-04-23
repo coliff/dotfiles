@@ -18,9 +18,20 @@
   "license": "MIT",
   "author": "C.Oliff (https://christianoliff.com)",
   "scripts": {
-    "css-lint": "npx stylelint \"scss/*.scss\"",
+    "lint-css": "npx stylelint \"*.css\" --fix -f verbose",
+    "lint-html": "htmlhint **/*.html",
+    "lint-js": "npx eslint@8 \"docs/*.js\" --fix",
+    "lint-links": "npx linkinator docs/ --recurse --silent --skip \"^(?!http://localhost)\"",
+    "lint-markdown": "npx markdownlint-cli2 \"**/*.md\" --fix",
+    "lint-spellcheck": "npx cspell \"**/*.md\" --silent",
     "prettier": "npx prettier --write \"scss/*.scss\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "volta": {
+    "node": "22.22.2"
+  }
 }
